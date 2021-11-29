@@ -2,11 +2,8 @@ import * as Phaser from 'phaser';
 
 function preload ()
 {
-    this.load.setBaseURL('http://labs.phaser.io');
+    this.load.setBaseURL('http://localhost')
 
-    this.load.image('sky', 'assets/skies/space3.png');
-    this.load.image('logo', 'assets/sprites/phaser3-logo.png');
-    this.load.image('red', 'assets/particles/red.png');
 }
 
 function create ()
@@ -30,6 +27,10 @@ function create ()
     emitter.startFollow(logo);
 }
 
+function update() {
+    const self = this
+}
+
 const config = {
     type: Phaser.AUTO,
     width: 800,
@@ -45,7 +46,8 @@ const config = {
     },
     scene: {
         preload,
-        create
+        create,
+        update
     }
 }
 
