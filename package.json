@@ -1,0 +1,8 @@
+{
+  "name": "double-8-pool",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:Hyperkid123/double-8-pool.git",
+  "author": "Martin Maroši <marvusm.mmi@gmail.com>",
+  "license": "MIT"
+}
