@@ -6,6 +6,7 @@
   "author": "Martin Maroši <marvusm.mmi@gmail.com>",
   "license": "MIT",
   "dependencies": {
+    "colyseus.js": "^0.14.13",
     "phaser": "3.55.2"
   }
 }
