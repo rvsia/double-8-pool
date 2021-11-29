@@ -4,5 +4,8 @@
   "main": "index.js",
   "repository": "git@github.com:Hyperkid123/double-8-pool.git",
   "author": "Martin Maroši <marvusm.mmi@gmail.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "phaser": "3.55.2"
+  }
 }
